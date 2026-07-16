@@ -1,16 +1,116 @@
-# React + Vite
+# 🛒 Tech Store React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce web application built with **React** and **Vite**. The application enables users to browse electronic products, search and filter items, sort products by price or rating, manage a shopping cart and wishlist, and switch between light and dark themes. Cart data is persisted using Local Storage for a seamless user experience.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://tech-store-react-pink.vercel.app
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
 
-## Expanding the ESLint configuration
+### 🛍️ Products
+![Products](screenshots/products.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛒 Shopping Cart
+![Shopping Cart](screenshots/cart.png)
+
+### ❤️ Wishlist
+![Wishlist](screenshots/wishlist.png)
+
+### 🌙 Light Mode
+![Light Mode](screenshots/light-mode.png)
+
+---
+
+## ✨ Features
+
+- 🛍️ Browse electronic products
+- 🔍 Search products by name
+- 🎯 Filter products by brand
+- ↕️ Sort products by price and rating
+- 🛒 Add, update, and remove items from the shopping cart
+- ❤️ Add and remove wishlist items
+- 🌙 Light/Dark mode toggle
+- 💾 Cart persistence using Local Storage
+- 📱 Responsive user interface
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Local Storage
+
+---
+
+## 📂 Project Structure
+
+```text
+tech-store-react
+├── public/
+├── screenshots/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── CartSidebar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProductCard.css
+│   │   ├── ProductCard.jsx
+│   │   ├── ProductFilters.jsx
+│   │   └── ProductGrid.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── data.js
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/Arshu01/tech-store-react.git
+
+cd tech-store-react
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- 🔐 User Authentication
+- 📄 Product Details Page
+- 💳 Checkout Process
+- 📦 Order History
+- ☕ Spring Boot REST API
+- 🗄️ MySQL Database
+- 💰 Payment Gateway Integration
+
+---
+
+## 👨‍💻 Author
+
+**Shaik Arshad Valli**
+
+- GitHub: https://github.com/Arshu01
